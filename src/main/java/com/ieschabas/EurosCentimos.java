@@ -30,6 +30,7 @@ public class EurosCentimos {
         /**
          * Obtener los céntimos.
          * Multiplicamos por 100 y restamos los euros ya convertidos a céntimos.
+         * Math.round para redondear los decimales.
          */
         int centimos = (int) Math.round((precio - euros) * 100);
 
