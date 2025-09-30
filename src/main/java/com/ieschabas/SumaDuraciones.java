@@ -36,7 +36,7 @@ public class SumaDuraciones {
          */
         int totalSegundos = seg1 + seg2;
         /**
-         * Convertir los segundos extra en minutos y sumarlos a los minutos totales.
+         * Convertir los segundos sobrantes en minutos y sumarlos a los minutos totales.
          */
         int totalMinutos = min1 + min2 + totalSegundos / 60;
 
