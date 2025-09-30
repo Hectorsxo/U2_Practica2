@@ -1,4 +1,9 @@
 package com.ieschabas;
+/**
+ * Programa que lee tres notas decimales introducidas por el usuario y muestre la media con dos decimales.
+ * @author Héctor Crespo
+ * @version 1.0
+ */
 
 import java.util.Scanner;
 
