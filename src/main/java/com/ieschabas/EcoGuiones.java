@@ -12,7 +12,7 @@ public class EcoGuiones {
     public static void main(String[] args){
 
         /**
-         * Crear objeto Scanner.
+         * Crear el objeto Scanner.
          */
         Scanner sc = new Scanner(System.in);
 
