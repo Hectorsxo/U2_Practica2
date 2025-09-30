@@ -10,6 +10,10 @@ import java.util.Scanner;
 
 public class ConversorTemperatura {
     public static void main(String[] args) {
+
+        /**
+         * Creación del objeto Scanner.
+         */
         Scanner sc = new Scanner(System.in);
 
         /**
