@@ -7,7 +7,21 @@ package com.ieschabas;
 
 import java.util.Scanner;
 
+/**
+ * Declaración de la clase pública FechaFormateada.
+ */
 public class FechaFormateada {
+
+    /**
+     * Constructor por defecto de la clase FechaFormateada.
+     */
+    public FechaFormateada() {
+    }
+
+    /**
+     * Método principal donde inicia la ejecución del programa.
+     * @param args argumentos de la línea de comandos.
+     */
     public static void main(String[] args) {
 
         /**
@@ -30,7 +44,7 @@ public class FechaFormateada {
         /**
          * Mostrar fecha en formato YYYY-MM-DD con ceros a la izquierda
          * %04d imprime el año con 4 dígitos
-         * %02d → imprime el mes y el día con 2 dígitos
+         * %02d imprime el mes y el día con 2 dígitos
          */
         System.out.printf("Fecha: %04d-%02d-%02d%n", año, mes, dia);
 

@@ -8,7 +8,20 @@ package com.ieschabas;
 
 import java.util.Scanner;
 
+/**
+ * Declaración de la clase pública ConversorTemperatura.
+ */
 public class ConversorTemperatura {
+    /**
+     * Constructor por defecto de la clase ConverrsorTemperatura.
+     */
+    public ConversorTemperatura() {
+    }
+
+    /**
+     * Método principal donde inicia la ejecución del programa.
+     * @param args argumentos de línea de comandos.
+     */
     public static void main(String[] args) {
 
         /**

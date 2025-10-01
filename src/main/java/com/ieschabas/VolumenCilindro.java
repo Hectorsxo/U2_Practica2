@@ -7,8 +7,23 @@ package com.ieschabas;
 
 import java.util.Scanner;
 
+/**
+ * Declaración de la clase pública VolumenCilindro.
+ */
 public class VolumenCilindro {
+
+    /**
+     * Constructor por defecto de la clase VolumenCilindro.
+     */
+    public VolumenCilindro() {
+    }
+
+    /**
+     * Método principal donde inicia la ejecución del programa.
+     * @param args argumentos de la línea de comandos.
+     */
     public static void main(String[] args) {
+
         /**
          * Creación del objeto Scanner.
          */

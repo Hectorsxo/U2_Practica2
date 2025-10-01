@@ -8,7 +8,21 @@ package com.ieschabas;
 
 import java.util.Scanner;
 
+/**
+ * Declaración de la clase pública EcoGuiones.
+ */
 public class EcoGuiones {
+
+    /**
+     * Constructor por defecto de la clase EcoGuiones
+     */
+    public EcoGuiones() {
+    }
+
+    /**
+     * Método principal donde inicia la ejecución del programa.
+     * @param args argumentos de la línea de comandos.
+     */
     public static void main(String[] args){
 
         /**
@@ -30,7 +44,6 @@ public class EcoGuiones {
         sc.close();
 
 }
-
 
 
 }
